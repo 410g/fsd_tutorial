@@ -54,29 +54,57 @@
         <h2>Contact us</h2>
         <form>
             <div>
-                <label for="name">Name:</label> <input type="text" placeholder="Enter your Name" id="name" name="name">
+                <label for="name">Name:</label> 
+                <input type="text" placeholder="Enter your Name" id="name" name="name">
             </div>
+
             <div>
-                <label for="email">Email:</label> <input type="email" placeholder="Enter your email" id="email" name="email">
-            </div>           
-            <div>
-            <label for="message">Message:</label> <textarea cols="30" rows="5" placeholder="Enter your message" id="message" name="message"></textarea>
-            </div>
-            <div>
-            <label for="subject">Subject:</label> <input type="text" placeholder="Enter your subject" id="subject" name="subject">
+                <label for="email">Email:</label> 
+                <input type="email" placeholder="Enter your email" id="email" name="email">
             </div>
             
-            <a>Subscribe to future offers by:</a>
             <div>
-            Newsletter <input type="checkbox">  Email <input type="checkbox"> Post <input type="checkbox"> 
-        </div>
-            <a>How would you like to respond?</a>
+                <label for="message">Message:</label> 
+                <textarea cols="30" rows="5" placeholder="Enter your message" id="message" name="message"></textarea>
+            </div>
+            
             <div>
-            Phone <input type="radio">  Email <input type="radio"> 
+                <label for="subject">Subject:</label> 
+                <select placeholder="Enter your subject" id="subject" name="subject">                    
+                    <optgroup label="Product issues">
+                    <option value="retuns">Returns</option>                    
+                    <option value="faulty_item">Faulty Item</option>
+                    </optgroup>
+                    <optgroup label="Delivery">                    
+                        <option value="delivery">Delivery info</option>                     
+                        <option value="order_tracking">Tracking my order</option> 
+                    </optgroup>
+                    <optgroup label="Other">
+                        <option value="advise">Advise</option> 
+                        <option value="other">Other</option>                     
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <p>Subscribe to future offers by:</p>
+                <label for="newsletter">Newsletter</label> 
+                <input type="checkbox" id="newsletter" name="subscribe" value="newsletter"> 
+                <label for="subemail">Email</label>
+                <input type="checkbox" id="subemail" name="subscribe" value="subemail">
+                <label for="post">Post</label> 
+                <input type="checkbox" id="post" name="subscribe" value="post">
+            </div>
+
+            <div>
+                <p>How would you like to respond?</p>
+                <label for="phone">Phone</label> 
+                <input type="radio" id="phone" name="respond" value="phone">
+                <label for="resemail">Email</label> 
+                <input type="radio" id="resemail" name="respond" value="resemail">
             </div>
             <input type="button" title="submit">
             <input type="button" title="reset">
-
         </form>
 
 
