@@ -17,6 +17,7 @@
                 <li><a href="contact.html">contact us</a></li>
             </ul>
         </nav>
+        <input type="search" placeholder="search...">
     </header>
 
     <aside>
@@ -67,7 +68,21 @@
                 <label for="message">Message:</label> 
                 <textarea cols="30" rows="5" placeholder="Enter your message" id="message" name="message"></textarea>
             </div>
-            
+
+            <div>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Enter your Subject" list="subjects">
+                <datalist id="subjects">
+                    <option value="returns">
+                    <option value="faulty item">
+                    <option value="Delivery info"> 
+                    <option value="Tracking my order"> 
+                    <option value="Advice">                            
+                    <option value="Other">                            
+                </datalist>
+            </div>
+
+<!--             
             <div>
                 <label for="subject">Subject:</label> 
                 <select placeholder="Enter your subject" id="subject" name="subject">                    
@@ -84,7 +99,7 @@
                         <option value="other">Other</option>                     
                     </optgroup>
                 </select>
-            </div>
+            </div> -->
 
             <div>
                 <p>Subscribe to future offers by:</p>
@@ -103,10 +118,25 @@
                 <label for="resemail">Email</label> 
                 <input type="radio" id="resemail" name="respond" value="resemail">
             </div>
-            <input type="button" title="submit">
-            <input type="button" title="reset">
+
+            <div>
+                <button type="submit">send</button>
+                <button type="reset">reset</button>
+            <!-- <input type="button" title="reset"> -->
+            </div>
         </form>
 
+
+        <!-- weitere inputs 
+        <form>
+            <input type="number">
+            <input type="password">            
+            <input type="date">
+            <input type="color">
+            <input type="range" min="1" max="10"  value="1">
+            <input type="search">
+        </form>
+        -->
 
     </main>
 
