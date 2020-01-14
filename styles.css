@@ -1,0 +1,15 @@
+
+      html {
+        background: #f7f7f7;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      
+      body{
+        background: white;
+      }
+      
+      header, footer{
+        background:#333a40; 
+        color:white;
+      }
