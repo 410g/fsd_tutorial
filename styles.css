@@ -4,6 +4,7 @@ html {
 
 }
 
+/* setzt Style für den gesamten body*/
 body{
     font-family: 'Gelasio', serif;
     background: white;
@@ -11,21 +12,50 @@ body{
     margin: 0 auto;
 }
 
+/* setzt Style für Header und footer*/
 header, footer{
     background:#333a40; 
     color:white;
 }
-
+/* setzt Style für alle unordered lists*/
 ul{
     margin: 0;
 }
 
-.product {
+/* setzt Style list im header*/
+header li{
+    display: inline; /* stellt die Listeneinträge nebeneinander dar*/
+}
+
+/*Style für h1 und nav im header*/
+header h1, nav{
+    display: inline-block; 
+}
+
+main{
+    width: 680px;
+    display: inline-block;
+}
+
+aside{
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+/*style für die KLASSE product*/
+.product { 
     border: 1px solid grey;
     width: 200px; 
     margin: 5px;
     padding: 5px;
+    display: inline-block;
 }
+
+.button{
+    padding: 5px;
+    display: inline-block;
+}
+
 
 img {
     max-width: 100%;
