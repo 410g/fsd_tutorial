@@ -1,15 +1,32 @@
 
-      html {
-        background: #f7f7f7;
-        max-width: 1000px;
-        margin: 0 auto;
-      }
-      
-      body{
-        background: white;
-      }
-      
-      header, footer{
-        background:#333a40; 
-        color:white;
-      }
+html {
+    background: #f7f7f7;
+
+}
+
+body{
+    font-family: 'Gelasio', serif;
+    background: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header, footer{
+    background:#333a40; 
+    color:white;
+}
+
+ul{
+    margin: 0;
+}
+
+.product {
+    border: 1px solid grey;
+    width: 200px; 
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+}
