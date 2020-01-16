@@ -84,10 +84,22 @@ img {
     max-width: 100%;
 }
 
+/*product detail page*/
+.product-detail {
+    width: 660px;
+}
 
-
-/*erstes p eines Containers rot darstellen*/
-/*p:first-of-type{ 
-    color: red; 
+.product-detail img{
+    max-width: 50%;
+    float: left;    
+}
+/*
+aside {
+    position: relative; verwendet offsets innerhalb der normalen positionierung des Dokuments
+    position: absolute;  position innerhalb des gesammten Dokuments - Keine Container werden beachtet
+    position:fixed;  position bleibt konstant, auch, wenn im Dokument gescrollt wird
+    position: sticky; - z.B.  für ein Seitenmenü, welches eingeblendet bleiben soll
+    top: 10px;
+    left: 10px;
 }
 */
