@@ -103,3 +103,30 @@ aside {
     left: 10px;
 }
 */
+
+
+/* Contact Us */
+
+form{
+    padding: 10px;
+    margin: 10px 0;
+    width: 600px;    
+}
+
+form > div{  /*jedes div nach form*/
+    margin: 5px 0;
+}
+
+
+.inline label{  
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    margin: 5px 0;        
+}
+
+/* explizit anpsrechen von inputs per type*/
+input[type="text"], input[type="email"], textarea{
+    padding: 5px;
+    width: 300px;
+}

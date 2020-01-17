@@ -56,22 +56,22 @@
     <main>
         <h2>Contact us</h2>
         <form>
-            <div>
+            <div class="inline">
                 <label for="name">Name:</label> 
                 <input type="text" placeholder="Enter your Name" id="name" name="name">
             </div>
 
-            <div>
+            <div class="inline">
                 <label for="email">Email:</label> 
                 <input type="email" placeholder="Enter your email" id="email" name="email">
             </div>
             
-            <div>
+            <div class="inline">
                 <label for="message">Message:</label> 
                 <textarea cols="30" rows="5" placeholder="Enter your message" id="message" name="message"></textarea>
             </div>
 
-            <div>
+            <div class="inline">
                 <label for="subject">Subject</label>
                 <input type="text" id="subject" placeholder="Enter your Subject" list="subjects">
                 <datalist id="subjects">
@@ -84,33 +84,20 @@
                 </datalist>
             </div>
 
-<!--             
-            <div>
-                <label for="subject">Subject:</label> 
-                <select placeholder="Enter your subject" id="subject" name="subject">                    
-                    <optgroup label="Product issues">
-                    <option value="retuns">Returns</option>                    
-                    <option value="faulty_item">Faulty Item</option>
-                    </optgroup>
-                    <optgroup label="Delivery">                    
-                        <option value="delivery">Delivery info</option>                     
-                        <option value="order_tracking">Tracking my order</option> 
-                    </optgroup>
-                    <optgroup label="Other">
-                        <option value="advise">Advise</option> 
-                        <option value="other">Other</option>                     
-                    </optgroup>
-                </select>
-            </div> -->
-
             <div>
                 <p>Subscribe to future offers by:</p>
-                <label for="newsletter">Newsletter</label> 
-                <input type="checkbox" id="newsletter" name="subscribe" value="newsletter"> 
-                <label for="subemail">Email</label>
-                <input type="checkbox" id="subemail" name="subscribe" value="subemail">
-                <label for="post">Post</label> 
-                <input type="checkbox" id="post" name="subscribe" value="post">
+                <div>
+                    <label for="newsletter">Newsletter</label>  
+                     <input type="checkbox" id="newsletter" name="subscribe" value="newsletter"> 
+                </div>
+                <div>
+                    <label for="subemail">Email</label>
+                    <input type="checkbox" id="subemail" name="subscribe" value="subemail">
+                </div>
+                <div>
+                    <label for="post">Post</label> 
+                    <input type="checkbox" id="post" name="subscribe" value="post">
+                </div>
             </div>
 
             <div>
@@ -149,7 +136,7 @@
         <!--Maps einbettung (API-KEY fehlt) 
             <iframe width="600" height="450" frameborder="0" style="border:0"  src="https://www.google.com/maps/embed/v1/place?key=API KEY&q=Tegeler+Weg,Berlin+GERMANY" allowfullscreen></iframe> -->
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BmCTQ_mkzHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--    <iframe width="560" height="315" src="https://www.youtube.com/embed/BmCTQ_mkzHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 
     </main>
