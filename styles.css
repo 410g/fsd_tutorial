@@ -55,14 +55,15 @@ header h1{
 }
 
 /*main und aside als inline-block, damit sie nebeneinander dargestellt werden*/
-main{
-    width: 680px;
+
+main{    
+    width: 68%;
     display: inline-block;
     padding: 10px;
 }
 
 aside{
-    width: 270px;
+    width: 27%;
     display: inline-block;
     vertical-align: top;
     padding: 10px;
@@ -71,7 +72,7 @@ aside{
 .product { 
     box-sizing: border-box; /* verwende die Breite und berücksichtige dabei border,margin und padding*/
     border: 1px solid grey;
-    width: 210px; 
+    width: 30%; 
     margin: 5px;
     padding: 5px;
     display: inline-block; /* stelle Produkte nebeneinander dar*/
@@ -150,8 +151,7 @@ table{
 caption{
     font-style: italic;
     font-weight: bold;
-    border-bottom: 1px solid;
-    spacing: 10px;
+    border-bottom: 1px solid;    
 }
 
 th, td{
